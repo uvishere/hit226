@@ -442,24 +442,21 @@ transition-delay: 0s, 1s 2s;
 
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
-### Make something cool
-* Open the [code pen for this class](https://codepen.io/elvey/pen/aYLQgd)
-* There are 5 boxes with different properties changing on hover
-* What can you make them do?
-* You can change the transition for all boxes in .box or address individual boxes using .box[:nth-child(x)](https://developer.mozilla.org/en-US/docs/Web/CSS/%3Anth-child)
-* Add/remove boxes for better effect and share your favourite in learnline
-
+### Practice Yourself
+* try to redesign CSS-Grid Sample.html using Grids
+* try to redesign Transition Sample.html and play with transitions
+* try to redesign animation Sample.html and play with animations
 
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
-## Prac4
+## Prac3 (2nd)
 * [Build a component-based design](https://online.cdu.edu.au/bbcswebdav/pid-2721700-dt-content-rid-11324544_2/xid-11324544_2)
-* [Criteria](https://online.cdu.edu.au/bbcswebdav/pid-2721700-dt-content-rid-11324556_2/xid-11324556_2)
+
 
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ### As a team
-* Create a base style and element styling for your minisite
+* Create a base style and element styling for your project site
 * Use your personas and feature lists as a guide
 * What colours and fonts will you use?
 * How should base elements like headings and links look?
@@ -484,7 +481,6 @@ transition-delay: 0s, 1s 2s;
 * Include a CSS file for your team design and a HTML document demonstrating the design
 * Your HTML file should be index.html in the root of your repository
 * Publish your site on GitHub Pages
-* Share a link to your repository and github pages URL in the discussion board
 * I will look at commits to see who does the work
 
 
