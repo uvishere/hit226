@@ -1,0 +1,16 @@
+
+MVP: 21
+	Slides: 5min
+	Your pages: 5min
+	Video: 11min
+
+JS: 30min
+	Slides: 5min
+	Link script: 10min
+	Questions: 5min
+	Use console: 10min
+JS Stuff: 20 min
+	Slites: 5 min
+	Riddle me this: 5min
+	Write a loop: 10min
+

@@ -1,0 +1,23 @@
+
+
+ROT: 10min
+
+Debugging: 20min
+Slides: 5min
+Debug page: 5 + 10 min
+
+Accessing the DOM 20 min
+Slides: 5min
+Activity: 10min
+What does this do? 5min
+
+Classes: 15min
+Slides: 5min
+Activity: 10min
+
+Event Listeners
+Slides: 5min
+Mouse listeners: 5min
+Drag and drop: 15min
+
+Total: 90min

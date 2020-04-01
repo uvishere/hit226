@@ -1,0 +1,17 @@
+Atom:
+	slides: 5m
+	Activity: 15m
+Git
+	Slides: 10m
+	Create account: 10m
+	Clone and commit: 15m
+
+
+HTML Validation
+	Slides: 2m
+	Activity: 15m
+Semantic HTML
+	Slides: 10m
+	Activity: 20m
+
+Total: 136 (21 minutes over)

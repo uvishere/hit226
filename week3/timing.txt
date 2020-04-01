@@ -1,0 +1,31 @@
+Dev tools:
+	Slides: 10m
+	Activity: 15m
+Total: 25m
+
+DOM: 
+	Slides: 5m
+	Draw the tree: 10m
+	Draw the page: 15m
+Total: 30m
+
+
+CSS Quiz: 20m
+
+CSS
+Slides: 10m
+Activity: 15m
+Total: 25m
+
+Best practices
+Slides 5min
+Activity: 2x10m
+Total: 25m
+
+
+Git branches
+	Slides: 5m
+	Git branching activity: 10m
+	Accessibility branch: 15m
+Total: 30m
+

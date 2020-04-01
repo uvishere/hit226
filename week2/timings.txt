@@ -1,0 +1,27 @@
+Week 2
+
+Structural Elements
+	Slides: 10m
+	Activity (group): 15m
+
+Github Pages
+	Slides: 2m
+	Setup: 15m
+
+Browser
+	Slides: 2m
+	Lighthouse: 15m
+
+Accssibility
+	Slides: 10m
+	Form activity: 15m
+	Colour activity: 10m
+	Video: 4m
+
+Total: 139 (Over 20m)
+
+Todo:
+	Move colour activity to codepen
+	Fix print out for structural elements
+	Add instructions for off campus students
+

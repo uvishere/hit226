@@ -1,0 +1,23 @@
+Intro: 10 minutes
+
+Box model: 3 minutes
+Activity: 3 minutes
+Total: 6 minutes
+
+Specificity and inheritance: 10 miutes
+Reading: 5 -10 minutes
+Total: 15 - 20 minutes
+
+Media queries: 5 minutes
+Reading: 5 minutes
+Activity: 5 minutes
+Total: 15 minutes
+
+Responsive Design: 3 minutes
+
+Flexbox: 6 minutes
+Activity: 5 minutes
+Total: 11 minutes
+
+Total: 60 - 65 minutes
+10 + 6 + 15 + 15 + 3 + 11

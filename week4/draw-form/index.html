@@ -1,0 +1,38 @@
+
+<link rel="stylesheet" href="style.css">
+
+<form class="form" action method="POST" id="form_application" name="form_application" enctype="multipart/form-data">
+
+    <p>Required Fields *</p>
+
+    <fieldset id="contact_info">
+        <legend>Contact Info</legend>
+        <div class="form-field">
+            <label id="lbl_name" for="name">Name: <span class>*</span></label><br>
+            <input type="text" name="name" id="name" required placeholder="Your Name">
+        </div>
+
+        <div class="form-field">
+            <label id="lbl_email" for="email">Email: <span class>*</span></label><br>
+            <input type="email" name="email" id="email" required placeholder="email@domain.com">
+        </div>
+
+        <div class="form-field">
+            <label id="lbl_phonenumber" for="phonenumber">Phone: <span class>*</span></label><br>
+            <input type="tel" name="phonenumber" id="phonenumber" required placeholder="###-###-####" size="15" maxlength="50">
+        </div>
+    </fieldset>
+
+    <fieldset id="education">
+        <legend>Education</legend>
+        <fieldset class="form-field">
+            <legend>Did you graduate?:</legend>
+            <input type="radio" name="grad" value="Yes" id="grad_1"> <label for="grad_1" >Yes</label> &nbsp;
+            <input type="radio" name="grad" value="No" id="grad_2"> <label for="grad_2" >No</label>
+        </fieldset>
+
+    </fieldset>
+
+    <input type="submit" name="submit" value="Submit Application" />
+
+</form>
