@@ -3,11 +3,6 @@
 
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
-## A quick quiz
-
-
-
-<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ## Material cards
 
 
