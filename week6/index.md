@@ -54,18 +54,12 @@ Leave off anything not critical
 
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
-### How I develop an MPV
+### How to develop an MVP
 * List _all_ the functionality or user goals you can think of
 * Sort it into categories of importance
 * Look at the most important category
 	* What do you absolutely need for people to try it out
 
-
-<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
-### Be brutal
-Just because something isn't MVP doesn't mean it will not get done
-
-If you are only going to make the MVP then stop, is it worth investing any time into?
 
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
@@ -73,18 +67,6 @@ If you are only going to make the MVP then stop, is it worth investing any time 
 * Landing page - just the front page to test engagement
 * Wizard of oz - looks like the real thing but the back-end is fake
 * Prototype - A quick mock-up of the real user interaction
-
-
-<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
-### My stories
-* A successful prototype
-* A not-so-successful trial
-
-Note:
-I worked on a number of projects last year. But I'm going to talk about two of them. 
-One of them was an application to prompt users to complete regular small quizzes on the material they are learning. A target audience was identified and we set to work building it. When the target audience was no longer interested we switched to a different target. In the end they didn't use it. We spent an enormous amount of time building an application that nobody uses. It is reasonable to say that one or more of our assumptions were wrong. But we never found out about it until we were already comitted.
-On another occasion we were asked to create augmented reality tools to teach dynamics, or the physics of moving objects. We quickly put together a crude prototype to test some 3D models and students responded well to them. We then put them into a very simple augmented reality application and students didn't engage with them. We quickly found that the assumptions behind agumented reality were false and we went on to develop interactive worksheets with the 3D models.
-One project was completed in 8 weeks and is still used. The other was completed in over 6 months and has never had much use.
 
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
@@ -137,7 +119,7 @@ One project was completed in 8 weeks and is still used. The other was completed 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ## Create and link a javascript file
 * Download a fresh copy of the HTML Boilerplate from github
-	* [https://github.com/HIT223/HTML-Boilerplate](https://github.com/HIT223/HTML-Boilerplate)
+	* [https://github.com/HIT226/HTML-Boilerplate](https://github.com/HIT226/HTML-Boilerplate)
 * Create a new file called myscript.js in the folder js
 	* Javascript file should end with .js and should be kept in a js or scripts folder
 * Type alert("javascript is cool"); in the new file
@@ -308,7 +290,7 @@ Otherwise do this other thing
 if(input.id === data.id) {
 	data.content = input.data;
 } else {
-	error = 'Invalid data ID;
+	error = 'Invalid data ID';
 }
 ```
 Error will only be set if the IDs do not match
