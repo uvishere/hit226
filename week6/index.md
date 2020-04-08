@@ -407,4 +407,5 @@ while(true) {
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ## Your turn
-Write some code to print all the even numbers less than 10
+* Write some code to print all the even numbers less than 10
+* Write a Javascript code to swap two numbers without using third variable. Ex: Input: a=10 b=20 then, Output: a=20 b=10
