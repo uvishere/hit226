@@ -445,16 +445,15 @@ for(var i = 0; i < vegetables.length; i++) {
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ### Lets code some code
 Useful: You can also access the characters of a string like an array
-* 1. Write a JavaScript code to Display Characters from A to Z Using Loop.
-* 2. Write a JavaScript function to Check if the given character is Vowel or consonant?
-* 3. Write a JavaScript program which accept a number as input and insert dashes (-) between each two even numbers. For example, if you accept 025468 the output should be 0-254-6-8
-* 4. BONUS:Write a JavaScript function to check if an email in a valid email address? ``Hint: use Regular Expressions``
+* Write a JavaScript code to Display Characters from A to Z Using Loop.
+* Write a JavaScript function to Check if the given character is Vowel or consonant?
+* Write a JavaScript program which accept a number as input and insert dashes (-) between each two even numbers. For example, if you accept 025468 the output should be 0-254-6-8
+* BONUS:Write a JavaScript function to check if an email in a valid email address? ``Hint: use Regular Expressions``
 
-### more....
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ### Lets code some code
-* 5. Write a JavaScript program to find the most frequent item of an array.
+* Write a JavaScript program to find the most frequent item of an array.
 ```
 	Sample array: var arr1= [3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
 	Sample Output: a (5 times)
