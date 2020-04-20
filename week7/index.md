@@ -452,9 +452,9 @@ Useful: You can also access the characters of a string like an array
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ### Lets code some code
-* BONUS:Write a JavaScript function to check if an email in a valid email address? ``Hint: use Regular Expressions``
+* Write a JavaScript function to check if an email input is a valid email address? ``BONUS: use Regular Expressions``
 * Write a JavaScript program to find the most frequent item of an array.
 ```
-	Sample array: var arr1= [3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
-	Sample Output: a (5 times)
+Sample array: var arr1= [3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
+Sample Output: a (5 times)
 ```
