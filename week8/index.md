@@ -120,6 +120,13 @@
 * style.css != style.CSS
 
 
+
+
+
+
+
+
+
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ## Debugging
 
@@ -201,6 +208,8 @@
 ### Review
 * Why is main.js broken?
 * Can you fix it?
+
+
 
 
 
