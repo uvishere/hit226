@@ -123,10 +123,6 @@
 
 
 
-
-
-
-
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ## Debugging
 
@@ -241,54 +237,158 @@ You can call them from document (the root of the DOM tree) or an element
 
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
+### But first, get Element By ID
+
+You can call them from document (the root of the DOM tree) or an element
+
+- getElementById() - Get the first matching element
+
+```html
+<div id="submitBtnId">Hi I'm inside ID</div>
+```
 ```js
-var btn = document
-	.querySelector('#submitBtn');
-console.log('submit button', btn);
+var btn = document.getElementsById("submitBtnId");
+console.log("submit button", btn.innerHTML);
+```
+
+
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
+### Get Elements By ClassName
+You can call them from document (the root of the DOM tree) or an element
+
+- getElementsByClassName() - Get the array of matching elements
+
+```html
+<div id="submitBtnClass">Hi I'm inside 1</div>
+<div id="submitBtnClass">Hi I'm inside 2</div>
+```
+
+```js
+var btn = document.getElementsByClassName("submitBtnClass");
+console.log("submit button", btn[0].innerHTML);
+```
+
+
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
+### Query selectors
+
+Use CSS selectors to get elements from the DOM
+
+- querySelector() - Get the first matching element
+- querySelectorAll() - Get a collection of elements
+
+You can call them from document (the root of the DOM tree) or an element
+
+
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
+```js
+var btn = document.querySelector("#submitBtn");
+console.log("submit button", btn);
 ```
 
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ```js
-var inputs = document
-	.querySelectorAll('.register-form input');
-console.log('registration inputs', inputs);
+var inputs = document.querySelectorAll(".register-form input");
+console.log("registration inputs", inputs);
 ```
 
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
-<video>
-	<source data-src="videos/devtools-query-dom.webm" type="video/webm" />
-</video>
+### Changing Styles
+
+Use DOM Styles objects to change CSS using JavaScript
+
+
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
+```html
+<div id="submitButton">Hi I'm inside 1</div>
+```
+
+```js
+var btn = document.querySelector("#submitBtn");
+btn.style.color = "red";
+```
+
+* Reference: [W3 Schoos](https://www.w3schools.com/jsref/dom_obj_style.asp)
 
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ### Have a play
-* Open index.html from hairsalon and type the following into the bottom of the console
-	* document.querySelector('thumb')
-	* document.querySelectorAll('thumb')
-	* document.querySelectorAll('nav li')
-	* document.querySelectorAll('nav > li')
-	* document.querySelector('#logo')
-	* document.querySelectorAll('#logo')
+- Open index.html from hairsalon and type the following into the bottom of the console
+  _ document.querySelector('thumb')
+  _ document.querySelectorAll('thumb')
+  _ document.querySelectorAll('nav li')
+  _ document.querySelectorAll('nav > li')
+  _ document.querySelector('#logo')
+  _ document.querySelectorAll('#logo')
 
 
 <!-- .slide: class="small-margin" data-background-image="../images/bg-mouse.jpg" -->
 ### Can you tell what this does?
+
 ```html
 <form class="register-form">
-	<label for="name">Name</label>
-	<input id="name" name="name" />
-	<label for="idCode">ID Code</label>
-	<input id="idCode" name="id" />
+  <label for="name">Name</label>
+  <input id="name" name="name" />
+  <label for="idCode">ID Code</label>
+  <input id="idCode" name="id" />
 </form>
 ```
 
 ```js
-var inputs = document.querySelectorAll('.register-form input');
+var inputs = document.querySelectorAll(".register-form input");
 var registrationData = {};
-for(var i = 0; i < inputs.length; i++) {
-	var inputName = inputs[i].getAttribute('name');
-	registrationData[inputName] = inputs[i].value;
+for (var i = 0; i < inputs.length; i++) {
+  var inputName = inputs[i].getAttribute("name");
+  registrationData[inputName] = inputs[i].value;
 }
 ```
+
+
+<!-- .slide: class="small-margin" data-background-image="../images/bg-mouse.jpg" -->
+### Can you Solve This?
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>JS DOM paragraph style</title>
+  </head>
+  <body>
+    <p id="text">JavaScript Exercises - w3resource</p>
+    <div>
+      <button id="jsstyle" onclick="js_style()">Style</button>
+    </div>
+  </body>
+</html>
+```
+
+```js
+//Clicking on the button the font, font size, and color of the paragraph text should be be changed.
+```
+
+
+<!-- .slide: class="small-margin" data-background-image="../images/bg-mouse.jpg" -->
+### Can you Solve This?
+
+```html
+<!DOCTYPE html>
+<html><head>
+<meta charset=utf-8 />
+<title>Return first and last name from a form - w3resource</title>
+</head><body>
+<form id="form1" onsubmit="getFormvalue()">
+First name: <input type="text" name="fname" value="David"><br>
+Last name: <input type="text" name="lname" value="Beckham"><br>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
+```
+```js
+//Write a JavaScript function to get the values of First and Last name of the following form
+```
+<!-- .slide: class="small-margin" data-background-image="../images/bg-mouse.jpg" -->
+### If you have to add new rows in a table using JavaScript, what objects/ methods would you use?? 
