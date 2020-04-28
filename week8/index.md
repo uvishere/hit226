@@ -122,7 +122,6 @@
 
 
 
-
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ## Debugging
 
@@ -208,7 +207,6 @@
 
 
 
-
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ## Accessing the DOM
 
@@ -224,16 +222,6 @@ Two really stand out
 * getElementsByTagName()
 * querySelector() <!-- .element class="fragment fragment-em" data-fragment="1" -->
 * querySelectorAll() <!-- .element class="fragment fragment-em" data-fragment="1" -->
-
-
-<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
-### Query selectors
-Use CSS selectors to get elements from the DOM
-
-* querySelector() - Get the first matching element
-* querySelectorAll() - Get a collection of elements
-
-You can call them from document (the root of the DOM tree) or an element
 
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
@@ -310,7 +298,7 @@ var btn = document.querySelector("#submitBtn");
 btn.style.color = "red";
 ```
 
-* Reference: [W3 Schoos](https://www.w3schools.com/jsref/dom_obj_style.asp)
+* Reference: [W3 Schools](https://www.w3schools.com/jsref/dom_obj_style.asp)
 
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
@@ -369,7 +357,6 @@ for (var i = 0; i < inputs.length; i++) {
 //Clicking on the button the font, font size, and color of the paragraph text should be be changed.
 ```
 
-
 <!-- .slide: class="small-margin" data-background-image="../images/bg-mouse.jpg" -->
 ### Can you Solve This?
 
@@ -390,5 +377,7 @@ Last name: <input type="text" name="lname" value="Beckham"><br>
 ```js
 //Write a JavaScript function to get the values of First and Last name of the following form
 ```
+
+
 <!-- .slide: class="small-margin" data-background-image="../images/bg-mouse.jpg" -->
 ### If you have to add new rows in a table using JavaScript, what objects/ methods would you use?? 
