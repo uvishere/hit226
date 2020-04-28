@@ -1,49 +1,6 @@
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 # Lets Code
 
-
-
-<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
-### Prac 4 Feedback
-<div class="column-wrapper">
-	<div class="column">
-		<img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Fxemoji_u1F601.svg" alt="smiley face" class="column-icon" />
-		<ul class="happy-list">
-			<li>Some great looking cards</li>
-			<li>Some very informative git commit messages made it easy to see what people are doing</li>
-			<li>Many people used the lighthouse tool to check accessibility</li>
-			<li>Some very clever cards using things like clip-path and javascript</li>
-		</ul>
-	</div>
-	<div class="column">
-		<img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Fxemoji_u1F622.svg" alt="sad face" class="column-icon" />
-		<ul class="sad-list">
-			<li>Looks like a lot of people are still using the web interface to delete and re-upload files.</li>
-			<li>Many are not testing with lighthouse</li>
-			<li>Only showing content on hover doesn&quot;t work with a keyboard or touchscreen</li>
-			<li>Most teams didn&quot;t test their pages on mobile.</li>
-		</ul>
-	</div>
-</div>
-
-
-<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
-## Marking guidelines
-* Read the guidelines
-	* If there are 15 marks for making it responsive - make sure you at least try
-* Test your work before submitting
-	* Does it validate?
-	* How does it work when you resize the screen
-
-
-<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
-## Marking guidelines
-* Make sure you submit correctly
-	* Github pages
-	* Use git commits to show your work
-
-
-
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ## General tips
 
