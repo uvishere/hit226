@@ -1,6 +1,9 @@
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 # Lets Code
 
+
+
+
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ## General tips
 
@@ -110,46 +113,11 @@
 
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
-## KeEP aN eYE on CASES
+### KeEP aN eYE on CASES
 * Windows is not case sensitive
 * Most web servers are
 * Make sure you use the right case in filenames
 * style.css != style.CSS
-
-
-
-<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
-### Review: ROT13
-* Did anyone do the exercise from week 7?
-
-```js
-function rot13(string) {
-  var alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
-  var letters = string.split('');
-  var answer = '';
-  var len = string.length
-  for (i = 0; i !== len; i++) {
-    var index = alphabet.indexOf(letters[i]);
-    if (index >= 13) {
-      index = index - 13;
-      answer = answer + alphabet[index];
-    } else {
-      index = index + 13;
-      answer = answer + alphabet[index];;
-    }
-  }
-  console.log(answer);
-}
-
-rot13('abcdefghijklmnopqrstuvwxyz')
-```
-
-
-<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
-### Write a search function
-* Can you get search working?
-* [HIT226: Write a search function](https://codepen.io/elvey/pen/axedrW)
-
 
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
