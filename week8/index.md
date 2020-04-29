@@ -357,6 +357,7 @@ for (var i = 0; i < inputs.length; i++) {
 //Clicking on the button the font, font size, and color of the paragraph text should be be changed.
 ```
 
+
 <!-- .slide: class="small-margin" data-background-image="../images/bg-mouse.jpg" -->
 ### Can you Solve This?
 
