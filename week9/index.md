@@ -4,15 +4,12 @@
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ## Prac 4 grades
-![Prac 4 boxplot](images/prac4-2019.png)
 
-
-<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
-* HD: 17
-* D: 12
-* C: 22
-* P: 25
-* F: 10
+* 80 - 100	10
+* 70 - 79	13
+* 60 - 69	11
+* 50 - 59	9
+* 0 - 49	15
 
 
 
