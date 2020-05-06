@@ -147,7 +147,8 @@ button.removeEventListener('click', clickHandler);
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ### Code Challenge
-Working with your team, can you make a [drag and drop?](https://codepen.io/elvey/pen/ardLxo)
+Can you make a [drag and drop?](https://codepen.io/elvey/pen/ardLxo)
+
 
 ```js
 /**
@@ -200,7 +201,6 @@ Have a look at the [event types](https://developer.mozilla.org/en-US/docs/Web/Ev
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ## Editing the DOM
-* Open up the [hair salon page](https://online.cdu.edu.au/courses/1/HIT226_Sem1_2019/db/_3159284_1/embedded/hairstylesalon-week8.zip) and follow along with the console prompt
 
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
@@ -209,8 +209,8 @@ You can read and set the properties of an element using dot notation
 
 ```js
 var nameInput = document.querySelector('input[name="fname"]');
-if(nameInput.value.toUpperCase === 'MATT') {
-	nameInput.value = 'Elvey';
+if(nameInput.value.toUpperCase === 'UV') {
+	nameInput.value = 'uv';
 }
 ```
 
@@ -274,9 +274,12 @@ document.querySelector('.hero').appendChild(myNewDiv);
 
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
-### Your turn
-* Download [tour.html](https://online.cdu.edu.au/bbcswebdav/pid-2721761-dt-content-rid-9151097_2/xid-9151097_2)
-* Attach the javascript and css to the [hair salon page](https://online.cdu.edu.au/courses/1/HIT226_Sem1_2019/db/_3159284_1/embedded/hairstylesalon-week8.zip)
-* Edit the javascript according to the comments
+### Your turn 1
+* Download the [hair salon page](https://online.cdu.edu.au/courses/1/HIT226_Sem1_2019/db/_3159284_1/embedded/hairstylesalon-week8.zip)
+* Hide all the paragraph text and Create Read more button.
+* Only Display the paragraph when the button is clicked
 
 
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
+### Your turn 2
+* Finish the Drag and Drop code challenge
