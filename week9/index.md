@@ -308,3 +308,8 @@ document.querySelector('.hero').appendChild(myNewDiv);
 </body>
 </html>
 ```
+
+
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
+### 4 
+* this is an example of using GitHub pages 
