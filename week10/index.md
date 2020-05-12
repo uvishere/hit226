@@ -4,14 +4,6 @@
 
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
-## Coding practice
-* In your teams work together to write a function that indicates which sections a user has read
-* The Front-end Developer must *not* drive (someone else controls the keyboard)
-* Use the [exercise on codepen](https://codepen.io/elvey/pen/zQwYgW)
-
-
-
-<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ## Git: Merge Conflicts
 ![merge conflict screenshot](images/gitgui-merge-conflict.png)
 
@@ -99,6 +91,7 @@
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ### Exercise
+* Create README.md
 * In your teams each person modify the heading in README.md
 * Everyone try to push your changes at once
 * Fix the merge conflicts
@@ -108,6 +101,43 @@
 ### NEVER force push
 ![Commit Stip: The force](https://www.commitstrip.com/wp-content/uploads/2019/03/Strip-Le-cot%C3%A9-obscur-de-la-force-650-finalenglish.jpg)
 
+
+
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
+## Advanced Git Commands (Git CLI)
+In real world scenario, using Git GUI (ex. Sourcetree) is time consuming
+* Developers use Git Commands
+* Simple and easy to use
+
+
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
+### git status
+Gives the current status of the repository code change.
+
+
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
+### git add
+Stages the changes
+* git add . : stage all changes in the repository.
+* git add {{file-name}} : stage changes made on a particular file.
+
+
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
+### git pull
+Pull from remote git repository
+* git pull origin master : pull codes from master branch
+
+
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
+### git push
+Push from remote git repository
+* git push origin master : pull codes from master branch
+
+
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
+### git branch
+List all the available branches
+* git branch {{name-of-branch}} : Create a branch naming {{name-of-branch}}
 
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
@@ -121,6 +151,7 @@
 * Is there anything you forgot to double check?
 
 
+### Command: git status
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 #### Example checklist
 * Is your spelling and grammar correct
@@ -170,3 +201,11 @@ Ensure your documentation tells you
 * What went well?
 * What didn't?
 * What would you do the same or differenly
+
+
+
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
+## Coding practice
+* In your teams work together to write a function that indicates which sections a user has read
+* The Front-end Developer must *not* drive (someone else controls the keyboard)
+* Use the [exercise on codepen](https://codepen.io/elvey/pen/zQwYgW)
