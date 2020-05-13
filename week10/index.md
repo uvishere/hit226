@@ -163,6 +163,13 @@ Stages the changes
 
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
+### git commit -a -m "this is the commit message"
+make a commit 
+* -a : staging and commit
+* -m : commit message
+
+
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ### git pull
 Pull from remote git repository
 * git pull origin master : pull codes from master branch
@@ -248,3 +255,5 @@ Ensure your documentation tells you
 ## Coding practice
 * write a function that indicates which sections a user has read
 * Use the [exercise on codepen](https://codepen.io/elvey/pen/zQwYgW)
+
+
