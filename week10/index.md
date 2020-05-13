@@ -4,6 +4,37 @@
 
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
+## Git: Branch and Checkout
+separately work and Merge at last
+![git branch](images/gitgui-merge-conflict.png)
+You're currently working only in master branch
+```git
+git push origin master (Master is the branch-name)
+```
+
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
+### How it works? - 1 
+* create separate branch for specific feature
+* work on it and commit all own on the same branch
+
+
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
+### How it works? - 2
+Checkout - Act of switching between different versions i.e. different branch
+* Checkout to Master Branch
+* Merge the feature branch to the master
+
+
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
+### More Info
+[Git Branch and Checkout Tutorial](https://www.atlassian.com/git/tutorials/using-branches)
+
+
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
+### demo
+
+
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ## Git: Merge Conflicts
 ![merge conflict screenshot](images/gitgui-merge-conflict.png)
 
@@ -140,6 +171,7 @@ List all the available branches
 * git branch {{name-of-branch}} : Create a branch naming {{name-of-branch}}
 
 
+
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ## Finishing up
 
@@ -151,7 +183,6 @@ List all the available branches
 * Is there anything you forgot to double check?
 
 
-### Command: git status
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 #### Example checklist
 * Is your spelling and grammar correct
