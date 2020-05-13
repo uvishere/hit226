@@ -12,6 +12,7 @@ You're currently working only in master branch
 git push origin master (Master is the branch-name)
 ```
 
+
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ### How it works? - 1 
 * create separate branch for specific feature
@@ -32,6 +33,14 @@ Checkout - Act of switching between different versions i.e. different branch
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ### demo
+
+
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
+### Exercise
+* Create a branch name contact-us-form
+* add few basic HTML form elements
+* checkout and merge with master branch
+
 
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
@@ -237,6 +246,5 @@ Ensure your documentation tells you
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ## Coding practice
-* In your teams work together to write a function that indicates which sections a user has read
-* The Front-end Developer must *not* drive (someone else controls the keyboard)
+* write a function that indicates which sections a user has read
 * Use the [exercise on codepen](https://codepen.io/elvey/pen/zQwYgW)
