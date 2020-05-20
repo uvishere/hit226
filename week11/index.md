@@ -22,7 +22,7 @@ https://developers.google.com/web/tools/chrome-devtools/device-mode/
 Upload your page/s to GitHub pages first and then use the URL to the page when testing.
 
 * [Mobile Test](http://mobiletest.me/)
-* [Mobile Phone Emulator](http://www.mobilephoneemulator.com/)
+* [Responsive PX](http://www.responsivepx.com/?codeshala.surge.sh#854x343&scrollbars)
 * [Google's Mobile-Friendly Test](https://search.google.com/test/mobile-friendly)
 
 
@@ -162,7 +162,7 @@ $("div").click( function () {
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ### Try it yourself
-Write a fuction using jQuery to change the color of the class "change-me"
+Write a fuction using jQuery to change the color of the class "change-me" after clicking the button.
 ```html
 <html>
 	<title> jQuery example </title>
@@ -172,6 +172,7 @@ Write a fuction using jQuery to change the color of the class "change-me"
 				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 			</p>
 		</div>
+		<button>click me</button>
 </html>
 ```
 
