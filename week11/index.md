@@ -104,14 +104,16 @@ Ensure your documentation tells you
 * simplifies HTML document traversing, event handling, animating, and Ajax interactions for Rapid Web Development.
 
 
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ### How to use??
 1. Download local from [here](https://jquery.com/download/) and include it as a script
 2. Use CDN
 ```html
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
 ```
 
 
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ### How to start? 
 * jQuery always start with $.()
 * to reduce chances of error, always use:
@@ -120,6 +122,7 @@ $(document).ready(function(){})
 ```
 
 
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ### Example
 Hide a class/id/element
 ```js
@@ -130,6 +133,7 @@ Hide a class/id/element
 similary, you can show() the class too
 
 
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ### Useful functions
 fadeIn() / fadeOut() / fadeToggle() - fade in/out/toggle a hidden element
 ```js  
@@ -146,6 +150,7 @@ $("#div3").fadeToggle(3000);
 * css() - sets or returns one or more style properties for the selected elements.
 
 
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ### Events
 You can use DOM events (eg: click, keypress, mouseover, load, submit) and perform tasks based on that
 ```js
@@ -155,6 +160,7 @@ $("div").click( function () {
 ```
 
 
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ### Try it yourself
 Write a fuction using jQuery to change the color of the class "change-me"
 ```html
@@ -170,5 +176,6 @@ Write a fuction using jQuery to change the color of the class "change-me"
 ```
 
 
+
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
-### All the best for your project
+## All the best for your project
