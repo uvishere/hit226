@@ -95,8 +95,9 @@ Ensure your documentation tells you
 * What would you do the same or differenly
 
 
+
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
-### BONUS - jQuery
+## BONUS - jQuery
 * fast and concise JavaScript library
 * Released in 2006
 * One of the most used JavaScript library
