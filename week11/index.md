@@ -96,4 +96,78 @@ Ensure your documentation tells you
 
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
+### BONUS - jQuery
+* fast and concise JavaScript library
+* Released in 2006
+* One of the most used JavaScript library
+* simplifies HTML document traversing, event handling, animating, and Ajax interactions for Rapid Web Development.
+
+
+### How to use??
+1. Download local from [here](https://jquery.com/download/) and include it as a script
+2. Use CDN
+```html
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+```
+
+
+### How to start? 
+* jQuery always start with $.()
+* to reduce chances of error, always use:
+```js
+$(document).ready(function(){})
+```
+
+
+### Example
+Hide a class/id/element
+```js
+	$(document).ready(function() {
+		$(".myClass").hide();
+	})
+```
+similary, you can show() the class too
+
+
+### Useful functions
+fadeIn() / fadeOut() / fadeToggle() - fade in/out/toggle a hidden element
+```js  
+//format is $(selector).fadeIn(speed,callback);
+$("#div1").fadeIn("slow");
+$("#div1").fadeOut();
+$("#div3").fadeToggle(3000);
+```
+
+
+### useful functions
+* after() - inserts content AFTER the selected HTML elements.
+* before() - inserts content BEFORE the selected HTML elements.
+* css() - sets or returns one or more style properties for the selected elements.
+
+
+### Events
+You can use DOM events (eg: click, keypress, mouseover, load, submit) and perform tasks based on that
+```js
+$("div").click( function () { 
+   // do something here
+});
+```
+
+
+### Try it yourself
+Write a fuction using jQuery to change the color of the class "change-me"
+```html
+<html>
+	<title> jQuery example </title>
+	<body>
+		<div class="change-me">
+			<p> 
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+			</p>
+		</div>
+</html>
+```
+
+
+<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ### All the best for your project
