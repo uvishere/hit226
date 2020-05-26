@@ -1,49 +1,21 @@
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
-# Lets Code
+# Lets Wrap Up
 
 
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
-## Exam preparation
-* In your teams grab a whiteboard
-* Can you draw page with the HTML, CSS and JS from the [exam last year](http://ereadings.cdu.edu.au/login.php?url=list/?search_keys%5B0%5D=)?
+### What did we cover?
+* HTML5 and Best Practices
+* Accessibility and Best Practices
+* CSS and Component Design
+* Designing Interactions using JavaScript
+* Source code control using GitHub
 
 
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
-## Device testing
-You don't always have multiple devices on which to test your site but there are some ways we can do the next best thing.
+# What's next?
 
-
-<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
-### Inside of Chrome
-
-You can also simulate devices right inside of Chrome, read through the Google Developers article on Chrome Device Mode
-
-https://developers.google.com/web/tools/chrome-devtools/device-mode/ 
-
-
-<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
-### Mobile testing websites
-
-Upload your page/s to GitHub pages first and then use the URL to the page when testing.
-
-* [Mobile Test](http://mobiletest.me/)
-* [Mobile Phone Emulator](http://www.mobilephoneemulator.com/)
-* [Google's Mobile-Friendly Test](https://search.google.com/test/mobile-friendly)
-
-
-<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
-### Remote debugging on real devices
-
-* [Android](https://developers.google.com/web/tools/chrome-devtools/debug/remote-debugging/remote-debugging?hl=en)
-* [iPhone](http://moduscreate.com/enable-remote-web-inspector-in-ios-6/)
-
-
-
-<!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
-## Continuous learning
-![Cactus reading a book](https://www.maxpixel.net/static/photo/1x/Cactus-Pot-Book-Reading-Study-Education-Eyes-1059633.jpg)
 
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
