@@ -115,7 +115,7 @@
 * [CSS Tricks](https://css-tricks.com/)
 * [David Walsh](http://davidwalsh.name/)
 * [Mozilla hacks](https://hacks.mozilla.org/)
-* [Google IO 2018](https://www.youtube.com/user/ChromeDevelopers)
+* [Google Web.dev 2020](https://www.youtube.com/user/ChromeDevelopers)
 
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
