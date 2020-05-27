@@ -78,7 +78,6 @@
 * There are two types of personal projects
 	* Those you finish
 	* Those you learn from and throw away
-* I have 100s of unfinished projects but I used them to learn new skills which I later applied to work
 
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
