@@ -28,12 +28,12 @@
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
 ### I don't use what I started with
-* I started as PHP developer
-* Then a Java web developer (not javascript)
-* Then front end javascript
-* Then jQuery AJAX web development
-* Then a bunch of PHP frameworks
-* Now Node and heaps of javascript frameworks
+* I started as designer for a magazine
+* Then a web developer
+* Then back end javascript (nodeJS)
+* Then Mobile Development using JavaScript (React Native)
+* Then DevOps and automation (Linux, Python, docker, cloud).
+* Now mostly backend and Frontend using JavaScript frameworks
 
 
 <!-- .slide: data-background-image="../images/bg-mouse.jpg" -->
